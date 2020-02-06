@@ -10,19 +10,17 @@ public class LoggningComp {
 		//consts for log masses
 		final double SMALL_LOG=0.25;
 		final double MED_LOG=0.50;
-		final double BIG_LOG=1;
+		final double BIG_LOG=1;	
 		//sets mass of the truck to 0
-		double mass_start=0;
-		
-		double mass;
-		
-		double maxload;
-		
+		double mass_start=0;		
+		//creates variables
+		double mass;		
+		double maxload;		
 		double log_type;
 		
 		System.out.print("Welcome to Ben's Logging Compamy");
 		
-		//creates object
+		//allows users to enter their selected log type
 		Scanner What_Logs = new Scanner(System.in); 
 		
 		//asks user a question		
@@ -30,6 +28,7 @@ public class LoggningComp {
 		
 		log_type= What_Logs.nextDouble();
 		
+		//displays how many logs the truck can carry based off of the selected log type
 		if (log_type==1) {
 		mass=SMALL_LOG;	
 		maxload= 1100/(SMALL_LOG*LOG_MASSES);
