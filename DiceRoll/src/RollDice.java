@@ -13,13 +13,23 @@ public class RollDice {
         //gets users input
         Scanner scanner = new Scanner(System.in);
 
+        //checks if input is valid
         try {
+            //creates the max random
             maxrand=scanner.nextInt();
+
+            //creates random number
             randomnumb= new Random().nextInt(maxrand)+1;
+
+            //prints random number
             System.out.print("The random number is " + randomnumb);
         }
+        //if it is an invalid value
         catch(Exception e){
+            //lets user know that there is an error
             System.out.println("Please enter a number");
+
+            //reruns function
             RollDice();
         }
     }
