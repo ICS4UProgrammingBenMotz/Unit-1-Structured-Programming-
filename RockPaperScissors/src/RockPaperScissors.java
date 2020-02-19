@@ -17,6 +17,7 @@ public class RockPaperScissors {
     private JLabel lblDes;
     private JPanel panel1;
 
+    //creates global variables
     String userSel;
     int randomnumb;
     int rock=1;
@@ -28,12 +29,16 @@ public class RockPaperScissors {
         btnSubmitChoice.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
+
+                //gets what the user selected
                 userSel=(String) cmbUserSel.getSelectedItem();
 
+                //generates random number
                 randomnumb= new Random().nextInt(3)+1;
 
+                //compares what the user selected vs the random number
                 if (randomnumb==rock){
-
+                    //displays label
                     lblCompChooses.setText("The computer chooses rock");
 
                     if (userSel=="Rock"){
