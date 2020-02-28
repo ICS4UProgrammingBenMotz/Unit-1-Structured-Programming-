@@ -1,3 +1,10 @@
+/*
+ * Created by: Ben Motz
+ * Created on: 28-02-2020
+ * Created for: ICS4U Programming
+ * Daily Assignment – Day 13- MDA
+ * This program uses multi dimensional arrays to calculate the class average
+*/
 import java.util.Random;
 
 public class MDArray {
