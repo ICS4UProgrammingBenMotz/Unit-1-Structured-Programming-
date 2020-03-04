@@ -34,27 +34,34 @@ public class PlanetEnumer {
 
                 //checks what the user selected, will then display a window for a response to the selection
                 if (cmbPlanets.getSelectedItem()==Planets.Mercury){
+                    //outputs message
                     JOptionPane.showMessageDialog(null, "You want to go to " +Planets.Mercury + ", planet #1");
                 }
                 else if (cmbPlanets.getSelectedItem()==Planets.Venus){
+                    //outputs message
                     JOptionPane.showMessageDialog(null, "You want to go to " +Planets.Venus + ", planet #2");
                 }
                 else if (cmbPlanets.getSelectedItem()==Planets.Earth){
                     JOptionPane.showMessageDialog(null, "You want to go to " +Planets.Earth + ", planet #3");
                 }
                 else if (cmbPlanets.getSelectedItem()==Planets.Mars){
+                    //outputs message
                     JOptionPane.showMessageDialog(null, "You want to go to " +Planets.Mars + ", planet #4");
                 }
                 else if (cmbPlanets.getSelectedItem()==Planets.Jupiter){
+                    //outputs message
                     JOptionPane.showMessageDialog(null, "You want to go to " +Planets.Jupiter + ", planet #5");
                 }
                 else if (cmbPlanets.getSelectedItem()==Planets.Saturn){
+                    //outputs message
                     JOptionPane.showMessageDialog(null, "You want to go to " +Planets.Saturn + ", planet #6");
                 }
                 else if (cmbPlanets.getSelectedItem()==Planets.Uranus){
+                    //outputs message
                     JOptionPane.showMessageDialog(null, "You want to go to " +Planets.Uranus + ", planet #7");
                 }
                 else if (cmbPlanets.getSelectedItem()==Planets.Neptune){
+                    //outputs message
                     JOptionPane.showMessageDialog(null, "You want to go to " +Planets.Neptune + ", planet #8");
                 }
 
