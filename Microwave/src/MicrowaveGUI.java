@@ -1,3 +1,10 @@
+/*
+ * Created by: Ben Motz
+ * Created on: 28-02-2020
+ * Created for: ICS4U Programming
+ * Daily Assignment – Day 7-Microwave
+ * This program that calculates the amount of time food has to be in the microwave for
+*/
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
 import org.eclipse.swt.widgets.Label;

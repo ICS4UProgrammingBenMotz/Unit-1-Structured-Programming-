@@ -1,3 +1,11 @@
+/*
+ * Created by: Ben Motz
+ * Created on: 28-02-2020
+ * Created for: ICS4U Programming
+ * Daily Assignment – Day 3-Logging CompanyGUI
+ * This program taht calculates the max number of logs that a truck can hold on a gui
+*/
+
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
 import org.eclipse.swt.widgets.Label;

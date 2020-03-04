@@ -1,3 +1,10 @@
+/*
+ * Created by: Ben Motz
+ * Created on: 28-02-2020
+ * Created for: ICS4U Programming
+ * Daily Assignment – Day 8- Dice Game
+ * This program taht plays a dice game with the user
+*/
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

@@ -1,3 +1,11 @@
+/*
+ * Created by: Ben Motz
+ * Created on: 28-02-2020
+ * Created for: ICS4U Programming
+ * Daily Assignment – Day 9-DiceRoll
+ * This program tahtcreates a random number where the maximum value given by the user.
+*/
+
 import java.util.Random;
 import java.util.Scanner;
 

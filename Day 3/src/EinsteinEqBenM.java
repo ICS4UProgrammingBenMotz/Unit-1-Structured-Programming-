@@ -1,3 +1,10 @@
+/*
+ * Created by: Ben Motz
+ * Created on: 28-02-2020
+ * Created for: ICS4U Programming
+ * Daily Assignment – Day 3-Einstein Equation
+ * This program calculates the energy from einstein's 
+*/
 import java.util.Scanner;
 
 public class EinsteinEqBenM {
